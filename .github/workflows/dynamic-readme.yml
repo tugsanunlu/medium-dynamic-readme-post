@@ -1,0 +1,39 @@
+name: Dynamic README
+on:
+  # run every sunday midnight
+  schedule:
+    - cron: "0 0 * * 0"
+  # allow manual trigger
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      # checkout actions
+      - name: Checkout actions
+        uses: actions/checkout@v2
+
+      # use node.js/npm
+      - name: Node.js and NPM
+        uses: actions/setup-node@v1
+        with:
+          node-version: 14
+      - run: npm install
+
+      # update readme
+      - name: Update README
+        run: |-
+          npm run start
+
+      # commit changes
+      - name: Commit
+        run: |-
+          git diff
+          git config --global user.email "unlutugsan@gmail.com"
+          git config --global user.name "README"
+          git add -A
+          git commit -m "update readme by workflow"
+          git push
