@@ -1,6 +1,8 @@
 ### Recent blog posts
 
 <!-- DATA:START -->
+* [GitHub Actions ve JavaScript ile Dinamik README Dosyası Oluşturmak](https://tugsanunlu.medium.com/github-actions-ve-javascript-ile-dinamik-readme-dosyas%C4%B1-olu%C5%9Fturmak-2c0686878407?source=rss-aff3f518ee8b------2)
+
 * [Webpack Speed Measure ile Build Sürelerini Ölçmek](https://tugsanunlu.medium.com/webpack-speed-measure-ile-build-s%C3%BCrelerini-%C3%B6l%C3%A7mek-6a4d417f65c8?source=rss-aff3f518ee8b------2)
 
 * [Webpack Bundle Analyzer ile Bundle Dosyalarını Analiz Etmek](https://tugsanunlu.medium.com/webpack-bundle-analyzer-ile-bundle-dosyalar%C4%B1n%C4%B1-analiz-etmek-23856d42cc2d?source=rss-aff3f518ee8b------2)
@@ -18,6 +20,4 @@
 * [JavaScript’de Mantıksal Operatörlerle Atama İfadesini Birlikte Kullanmak](https://tugsanunlu.medium.com/javascriptde-mant%C4%B1ksal-operat%C3%B6rlerle-atama-i%CC%87fadesini-birlikte-kullanmak-c3aa765e3f2c?source=rss-aff3f518ee8b------2)
 
 * [JavaScript’de Pipeline Operatörü ile Çıktıları Yönlendirmek](https://tugsanunlu.medium.com/javascriptde-pipeline-operat%C3%B6r%C3%BC-ile-%C3%A7%C4%B1kt%C4%B1lar%C4%B1-y%C3%B6nlendirmek-12dbc5627e5?source=rss-aff3f518ee8b------2)
-
-* [Subresource Integrity (SRI) ile Harici Kaynakların Bütünlüğünü Kontrol Etmek](https://tugsanunlu.medium.com/subresource-integrity-sri-ile-harici-kaynaklar%C4%B1n-b%C3%BCt%C3%BCnl%C3%BC%C4%9F%C3%BCn%C3%BC-kontrol-etmek-b39f39ca667b?source=rss-aff3f518ee8b------2)
 <!-- DATA:END -->
